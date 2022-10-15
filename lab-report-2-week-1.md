@@ -1,13 +1,3 @@
-Overall, make sure you have at least 6 screenshots, one for each of the steps below (though more is useful, remember that this will help out your future self). For each step include 2-3 sentences or bullet points describing what you did. If for some reason you didn’t do the step exactly, describe why not (maybe your computer already had something on it, maybe the department computers worked differently, etc).
-You will write a tutorial for incoming 15L students (and your future self!) about how to log into a course-specific account on ieng6. Your post should include the steps you took, along with screenshots of what each step looked like. You’re free to use the screenshots you took for lab 1, or new ones.
-
-- Installing VScode
-- Remotely Connecting
-- Trying Some Commands
-- Moving Files with scp
-- Setting an SSH Key
-- Optimizing Remote Running
-
 # Tutorial: How to Log into a Course-specific Account on ieng6
 ## Installing VS Code
 - Dowload VS Code [here](https://code.visualstudio.com/). After installing VS Code, you should see a window like the one below: 
