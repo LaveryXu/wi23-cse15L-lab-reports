@@ -119,6 +119,10 @@ $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 - You can use the up-arrow on your keyboard to recall the last command that was run
 - First try using just what we learned in this lab, and document the best process you came up with. Try to get the total time for a run after editing and saving to under 10 total keystrokes/mouse clicks, including all typing. A “keystroke” is pressing one key on your keyboard. For example, pressing the up arrow counts as one keystroke, and typing “java” counts as 4.
+- Using the up-arrow to recall previous commands, we can keep our keystroke under 10. Below is an example:![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/Optimization%20(2).png)
+  - After altering WhereAmI.java in the client, use the up arrow to recall `scp WhereAmI.java cs15lfa22it@ieng6.ucsd.edu:~\` (1 keystroke).
+  - Use the up arrow to recall `ssh cs15lfa22it@ieng6.ucsd.edu javac WhereAmI.java` and hit enter (2 keystrokes).
+  - Then, use the up arrow again to recall `ssh cs15lfa22it@ieng6.ucsd.edu java WhereAmI` and press enter (2 keystrokes). Now we've completed editing a file in our client, update the changes to the server and then run the file.
 - If you have more time, brainstorm other ideas or search for other ways you might easily run remote code.
 
 ## Wrapup
