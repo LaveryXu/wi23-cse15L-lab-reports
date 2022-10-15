@@ -1,14 +1,19 @@
-This is Lab0 in CSE 15L.
+This is index.md for Lab0 in CSE 15L.
+
 Can you see me?
-*italic?*
+
+*Is this italic?*
+
 Below is some experiments with the elements described in the Markdown cheat sheet:
-*This should be italic* _THis should also be italic_
-**This should be bold** __This should also be bold__
-# This is a heading 
-## This is another heading
+
+*This should be italic.* _This should also be italic._
+
+**This should be bold.** __This should also be bold.__
+# This is heading #1 
+## This is heading #2
 This is heading #3
 =
-This is heading #2
+This is heading #4
 --
 [This](https://www.youtube.com/watch?v=GZqizez1Dzs) should be a link.
 
@@ -38,5 +43,5 @@ System.out.println("Hellow World!")
 A link that doesn't work:
 [Lab Report 1](lab-report-1-week-0.html)
 
-A link that works:
+A link that directs to __lab-report-1-week-0__:
 [Lab Report 1](https://LaveryXu.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
