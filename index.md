@@ -27,9 +27,14 @@ Here's some lists:
 - SEVEN
 
 Here's a horizontal rule:
----------
+***
+**When I typed '---', VS Code did not render '---' as a horizontal rule, but made the line above a heading.**
+
 Here is some `inline code`
 Here is a code block:
 ```
 System.out.println("Hellow World!")
 ```
+[Lab Report 1](lab-report-1-week-0.html)
+
+[Lab Report 1](https://<your-username>.github.io/<your-lab-reports-repo>/lab-report-1-week-0.html)
