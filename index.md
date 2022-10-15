@@ -35,6 +35,8 @@ Here is a code block:
 ```
 System.out.println("Hellow World!")
 ```
+A link that doesn't work:
 [Lab Report 1](lab-report-1-week-0.html)
 
+A link that works:
 [Lab Report 1](https://LaveryXu.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
