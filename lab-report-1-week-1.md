@@ -90,7 +90,6 @@ The key's randomart image is:
 - **NOTE: If you're on Windows and is entering a path with space(s) in the directory names, doule quote the entire path.**
 - This created two new files on your system; the private key (in a file id_rsa) and the public key (in a file id_rsa.pub), stored in the .ssh directory on your computer.
 - Now we need to copy the public (not the private) key to the .ssh directory of your user account on the server.
-```
 # on client
 ```
 $ ssh cs15lfa22zz@ieng6.ucsd.edu
