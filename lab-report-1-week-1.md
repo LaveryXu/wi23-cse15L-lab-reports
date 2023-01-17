@@ -92,12 +92,16 @@ The key's randomart image is:
 - Now we need to copy the public (not the private) key to the .ssh directory of your user account on the server.
 ```
 # on client
+```
 $ ssh cs15lfa22zz@ieng6.ucsd.edu
 <Enter Password>
+```
 
 # now on server
+```
 $ mkdir .ssh
 $ <logout>
+```
   
 # back on client
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
