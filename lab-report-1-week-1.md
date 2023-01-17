@@ -91,19 +91,19 @@ The key's randomart image is:
 - This created two new files on your system; the private key (in a file id_rsa) and the public key (in a file id_rsa.pub), stored in the .ssh directory on your computer.
 - Now we need to copy the public (not the private) key to the .ssh directory of your user account on the server.
   
-**on client**
+**on client:**
 ```
 $ ssh cs15lfa22zz@ieng6.ucsd.edu
 <Enter Password>
 ```
 
-**now on server**
+**now on server:**
 ```
 $ mkdir .ssh
 $ <logout>
 ```
   
-**back on client**
+**back on client:**
 ```
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
