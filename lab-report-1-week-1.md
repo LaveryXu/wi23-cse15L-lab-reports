@@ -103,6 +103,7 @@ $ <logout>
 ```
   
 # back on client
+```
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
