@@ -1,7 +1,7 @@
 # Tutorial: How to Log into a Course-specific Account on ieng6
 ## Installing VS Code
 - Dowload VS Code [here](https://code.visualstudio.com/). After installing VS Code, you should see a window like the one below: 
-![Image](VS Code.png)
+![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/VS%20Code)
 - Press Ctrl+` to open a terminal in VS Code.
 - Tips: if you are stuck in the terminal, press **Ctrl+C** to opt out of any ongoing execution.
 
