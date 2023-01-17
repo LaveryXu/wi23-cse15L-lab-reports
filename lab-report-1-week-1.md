@@ -6,8 +6,8 @@
 - Tips: if you are stuck in the terminal, press **Ctrl+C** to opt out of any ongoing execution.
 
 ## Remotely Connecting
-- [Look for your CSE 15L course-specific account](https://sdacs.ucsd.edu/~icc/index.php) and note down your account name, it should be in such format: **cs15lwi23it@ieng6.ucsd.edu**. Reset your account password as [instructed](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit).
-- In the terminal you opened in VS Code, use command **ssh cs15lwi23it@ieng6.ucsd.edu** (replace cs15lwi23it with your CSE 15L account name) to log into UCSD's remote server. 
+- [Look for your CSE 15L course-specific account](https://sdacs.ucsd.edu/~icc/index.php) and note down your account name, it should be in such format: **cs15lwi23zz@ieng6.ucsd.edu**. Reset your account password as [instructed](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit).
+- In the terminal you opened in VS Code, use command **ssh cs15lwi23zz@ieng6.ucsd.edu** (replace cs15lwi23zz with your CSE 15L account name) to log into UCSD's remote server. 
 - If you get prompted to type yes/no, type yes and hit enter.
 - You should be prompted "Password:". Enter the password your reset previously. Your terminal should look like below: ![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/remote%20log%20in.png)
 
