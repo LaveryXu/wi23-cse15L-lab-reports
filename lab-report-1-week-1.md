@@ -6,8 +6,8 @@
 - Tips: if you are stuck in the terminal, press **Ctrl+C** to opt out of any ongoing execution.
 
 ## Remotely Connecting
-- [Look for your CSE 15L course-specific account](https://sdacs.ucsd.edu/~icc/index.php) and note down your account name, it should be in such format: **cs15lfa22it@ieng6.ucsd.edu**. Reset your account password as [instructed](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit).
-- In the terminal you opened in VS Code, use command **ssh cs15lfa22it@ieng6.ucsd.edu** (replace cs15lfa22it with your CSE 15L account name) to log into UCSD's remote server. 
+- [Look for your CSE 15L course-specific account](https://sdacs.ucsd.edu/~icc/index.php) and note down your account name, it should be in such format: **cs15lwi23it@ieng6.ucsd.edu**. Reset your account password as [instructed](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit).
+- In the terminal you opened in VS Code, use command **ssh cs15lwi23it@ieng6.ucsd.edu** (replace cs15lwi23it with your CSE 15L account name) to log into UCSD's remote server. 
 - If you get prompted to type yes/no, type yes and hit enter.
 - You should be prompted "Password:". Enter the password your reset previously. Your terminal should look like below: ![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/remote%20log%20in.png)
 
@@ -24,7 +24,7 @@
 - To log out of the remote server, use:
   - Ctrl+D
   - **exit** command
-- Here's some examples of running commands on the remote server:![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/run%20some%20commands%20(1).png)
+- Here's some examples of running commands on the remote server:![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/commands.png)
 
 ## Moving Files with scp
 - Create a file on your computer called WhereAmI.java and put the following contents into it:
