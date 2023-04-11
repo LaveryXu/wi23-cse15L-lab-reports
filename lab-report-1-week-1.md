@@ -1,7 +1,7 @@
 # Tutorial: How to Log into a Course-specific Account on ieng6
 ## Installing VS Code
 - Dowload VS Code [here](https://code.visualstudio.com/). After installing VS Code, you should see a window like the one below: 
-![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/VS%20Code)
+![Image](VSCode)
 - Press Ctrl+` to open a terminal in VS Code.
 - Tips: if you are stuck in the terminal, press **Ctrl+C** to opt out of any ongoing execution.
 
@@ -9,7 +9,7 @@
 - [Look for your CSE 15L course-specific account](https://sdacs.ucsd.edu/~icc/index.php) and note down your account name, it should be in such format: **cs15lwi23zz@ieng6.ucsd.edu**. Reset your account password as [instructed](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit).
 - In the terminal you opened in VS Code, use command **ssh cs15lwi23zz@ieng6.ucsd.edu** (replace cs15lwi23zz with your CSE 15L account name) to log into UCSD's remote server. 
 - If you get prompted to type yes/no, type yes and hit enter.
-- You should be prompted "Password:". Enter the password your reset previously. Your terminal should look like below: ![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/remote%20log%20in.png)
+- You should be prompted "Password:". Enter the password your reset previously. Your terminal should look like below: ![Image](remote-log-in.png)
 
 ## Trying Some Commands
 - Now that you have logged into the school's server, you are working with the server instead of your local computer. Commands entered in the terminal will be executed on the server while you are logged in. Here's some basic command lines you can try on the server:
@@ -24,7 +24,7 @@
 - To log out of the remote server, use:
   - Ctrl+D
   - **exit** command
-- Here's some examples of running commands on the remote server:![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/commands.png)
+- Here's some examples of running commands on the remote server:![Image](commands.png)
 
 ## Moving Files with scp
 - Create a file on your computer called WhereAmI.java and put the following contents into it:
@@ -45,7 +45,7 @@
   ```
 - You should be prompted for a password just like when you log in with ssh. Enter your password.
 - log into ieng6 with ssh again, and use ls. You should see the file there in your home directory! Now you can run the program on the ieng6 computer using the same javac and java commands from before.
-- After compiling and running, your should see below in your terminal:![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/scp%20(1).png)
+- After compiling and running, your should see below in your terminal:![Image](scp(1).png)
 - Compare the what the terminal prints when you run the file on your local client and the remote server. What are the differences? What do these differences imply about what `getProperty()` does?
 - What we see here is one solution for running code remotely – we can copy files to a remote server with scp, then log in and run them there.
 - Before you go on, do the following:
@@ -108,7 +108,7 @@ $ <logout>
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
-- Once you do this, you should be able to ssh or scp from this client to the server without entering your password, as shown below:![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/SSH%20(1).png)
+- Once you do this, you should be able to ssh or scp from this client to the server without entering your password, as shown below:![Image](SSH(1).png)
 - Repeat the timing experiment of editing and running WhereAmI.java now that you don’t have to use a password. How much time is saved per run?
 ## Optimizing Remote Running
 - Use what you’ve learned to come up with the most pleasant process you can for making a local edit to WhereAmI.java, then copying it to the remote server and running it.
@@ -117,14 +117,14 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 $ ssh cs15lfa22@ieng6.ucsd.edu "ls"
 ```
-- After executing the command above, you should see something like this:![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/Optimization%20(1).png)
+- After executing the command above, you should see something like this:![Image](Optimization(1).png)
 - You can use semicolons to run multiple commands on the same line in most terminals. For example, try:
 ```
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 - You can use the up-arrow on your keyboard to recall the last command that was run
 - First try using just what we learned in this lab, and document the best process you came up with. Try to get the total time for a run after editing and saving to under 10 total keystrokes/mouse clicks, including all typing. A “keystroke” is pressing one key on your keyboard. For example, pressing the up arrow counts as one keystroke, and typing “java” counts as 4.
-- Using the up-arrow to recall previous commands, we can keep our keystroke under 10. Below is an example:![Image](https://github.com/LaveryXu/cse15l-lab-reports/blob/main/Optimization%20(2).png)
+- Using the up-arrow to recall previous commands, we can keep our keystroke under 10. Below is an example:![Image](Optimization.png)
   - After altering WhereAmI.java in the client, use the up arrow to recall `scp WhereAmI.java cs15lfa22it@ieng6.ucsd.edu:~\` (1 keystroke).
   - Use the up arrow to recall `ssh cs15lfa22it@ieng6.ucsd.edu javac WhereAmI.java` and hit enter (2 keystrokes).
   - Then, use the up arrow again to recall `ssh cs15lfa22it@ieng6.ucsd.edu java WhereAmI` and press enter (2 keystrokes). Now we've completed editing a file in our client, update the changes to the server and then run the file.
